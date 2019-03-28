@@ -1,0 +1,21 @@
+cloudinary
+    - in settings, add upload preset
+        - edit transformations (do 325 x 325 scale)
+        - for my capstone, do I want the images to be private?
+        - security
+            - strict transformations - disabled
+    - cost
+        - free for 25 credits
+        - more can get quite expensive (AWS is cheaper)
+        - this is why dynamic websites can be so expensive
+
+install these dependencies
+    npm install cloudinary-react --save ("--save" saves it to your package.json file)
+        - search "cloudinary react" for npm install instructions
+    npm install axios --save
+    npm install superagent --save
+        - very similar to axios (Axios and ajax are two of the most popular. Fetch is new, so not all browsers support it)
+    npm install react-dropzone --save
+
+RESTful api (mostly JSON data)
+SOAP (mostly XML data)
